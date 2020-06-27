@@ -1,0 +1,12 @@
+{
+    "parser": "babel-eslint",
+    "plugins": ["prettier"],
+    "extends": ["prettier", "eslint:recommended", "plugin:react/recommended"],
+    "env": {
+        "browser": true,
+        "es6": true 
+    },
+    "parserOptions": {
+        "ecmaVersion": 2020
+    }
+}
